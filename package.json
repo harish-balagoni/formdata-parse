@@ -1,10 +1,10 @@
 {
   "name": "formdata-parse",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "parse the formData from express middleware",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "node src/index.js",
+    "test": "node lib/index.js",
     "build": "tsc"
   },
   "author": "Harish Balagoni",
