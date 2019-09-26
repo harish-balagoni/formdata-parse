@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": false,
+      "target": "es5",
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "./lib",
+      "strict": false,
+      "sourceMap": true,
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+  }
+
+//   {
+//     "compilerOptions": {
+//         "noImplicitAny": false,
+//         "target": "es2016",
+//         "module": "commonjs",
+//         // "esModuleInterop": true,
+//         "strict": false,
+//         "lib": ["es5", "es2016", "dom", "scripthost", "esnext"],
+//         "rootDir": "src",
+//         "sourceMap": true,
+//         "skipLibCheck": true,
+//         "esModuleInterop": true,
+//         "typeRoots": [
+//             "../../typings",
+//             "../../node_modules/@types"
+//         ]
+//     },
+//     "include": [
+//         "src/**/*", "src/controllers/userConroller.js"
+//     ],
+//     "exclude": [
+//         "node_modules",
+//         "dist"
+//     ]
+// }

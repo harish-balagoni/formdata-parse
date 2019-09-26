@@ -4,7 +4,8 @@
   "description": "parse the formData from express middleware",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node src/index.js",
+    "build": "tsc"
   },
   "author": "Harish Balagoni",
   "license": "MIT",
@@ -21,5 +22,8 @@
     "formidable",
     "s3",
     "express"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^12.7.8"
+  }
 }
