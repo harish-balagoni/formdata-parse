@@ -11,6 +11,10 @@
   "dependencies": {
     "formidable": "^1.2.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harish-balagoni/formdata-parse.git"
+  },
   "keywords": [
     "file",
     "upload",
