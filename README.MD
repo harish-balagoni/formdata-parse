@@ -19,12 +19,13 @@ npm install formdata-parse
 
 ## How to use
 
-```js
-const parse = require('formdata-parse');
+```ts
+import parseForm from 'formdata-parse';
+import express from 'express';
 
-var app = express();
+let app = express();
 
-app.post('/upload',parse, (req, res) => {
+app.post('/upload',parseForm, (req, res, next) => {
   req.fields; // contains non-file fields
   req.files; // contains files
 });

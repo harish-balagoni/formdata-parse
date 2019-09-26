@@ -1,15 +1,20 @@
 {
   "name": "formdata-parse",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "parse the formData from express middleware",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node lib/index.js",
+    "build": "tsc"
   },
   "author": "Harish Balagoni",
   "license": "MIT",
   "dependencies": {
     "formidable": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harish-balagoni/formdata-parse.git"
   },
   "keywords": [
     "file",
@@ -17,5 +22,8 @@
     "formidable",
     "s3",
     "express"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^12.7.8"
+  }
 }
