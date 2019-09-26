@@ -1,0 +1,21 @@
+{
+  "name": "formdata-parse",
+  "version": "1.0.2",
+  "description": "parse the formData from express middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Harish Balagoni",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "formidable",
+    "s3",
+    "express"
+  ]
+}
